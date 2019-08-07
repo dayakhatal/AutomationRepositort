@@ -19,7 +19,15 @@ public class Array1 {
 		std[8]="Vinod";
 		
 		System.out.println(std[3]);
-		// TODO Auto-generated method stub
+	
+		
+		for(int i=0;i<=8;i++)
+		{
+			
+			System.out.println(std[i]);
+			
+		}
+		
 
 	}
 
