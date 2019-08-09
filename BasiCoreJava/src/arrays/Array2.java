@@ -23,7 +23,7 @@ public class Array2 {
 		str[2][0]="U3";
 		str[2][1]="T3";
 		
-		for(int r=0;r<3;r++)  
+		for(int r=0;r<=3;r++)  
 		
 		{
 			for(int j=0;j<2;j++)
