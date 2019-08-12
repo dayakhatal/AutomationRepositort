@@ -2,7 +2,8 @@ package variablesAndDataTypes;
 
 import function.AccessModifiers;
 
-public class TestAcessModeWithinPackage {
+public class TestAcessModeWithinPackage extends AccessModifiers
+{
 
 	public static void main(String[] args) 
 	
@@ -11,6 +12,10 @@ public class TestAcessModeWithinPackage {
 		
 		obj2.publicfunction();
 		
+		TestAcessModeWithinPackage obj3= new TestAcessModeWithinPackage();
+				
+		obj3.protectedfunction();
+
 	}
 
 }

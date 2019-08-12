@@ -1,10 +1,16 @@
 package oops.inheritance;
 
-public class Smartphone {
+public class Smartphone extends Mobile
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+{
 
+	
+	public void internet()
+	
+	{
+		System.out.println("Net Surfing From Smartphone");
+		
 	}
+	
 
 }
