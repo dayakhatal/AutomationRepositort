@@ -8,6 +8,8 @@ public class TestAcessModeWithinPackage {
 		AccessModifiers obj2=new AccessModifiers();
 		
 		obj2.publicfunction();
+		obj2.defaulytfunction();
+		obj2.protectedfunction();
 		
 	}
 

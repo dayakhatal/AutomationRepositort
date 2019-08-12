@@ -6,23 +6,20 @@ public class FunctionClass1 {
 	
 	public static void main(String[] args) 
 	{
-		// TODO Auto-generated method stub	
 		/*daya();		
 		sum(10,20);
 		sum(20,20);*/
-		
-		 
+				 
 		int add=sum2(10,20);
 		String str=daya("Daya","Khatal");
-		
-		
-		
+			
 		System.out.println(add);
 		System.out.println(str);
 	}
+	
 	//function with no retuns type and no arguments
 		public static void daya()
-		{		
+		{		 
 			System.out.println("Testing");
 		}	
 		
@@ -46,7 +43,7 @@ public class FunctionClass1 {
 		public static String daya(String name,String surname)
 		{
 			 
-			return "your name is"+name+""+surname;
+			return "my name is"+name+""+surname;
 		}
 		
 }

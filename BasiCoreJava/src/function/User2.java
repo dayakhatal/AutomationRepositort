@@ -8,11 +8,11 @@ public class User2 {
 		Car BMW= new Car("Gray","x1");
 		BMW.specificing();
 		
-		Car maruti=new Car();
-		maruti.color="White";
-		maruti.model="Shift";
-		maruti.wheels=6;
-		maruti.specificing();
+		Car tata=new Car();
+		tata.color="Red";
+		tata.model="Tago";
+		//tata.wheels=4;
+		tata.specificing();
 		
 	}
 

@@ -2,12 +2,8 @@ package function;
 
 public class Class2 {
 
-	public static void main(String[] args) 
+
 	
-	{
-		// TODO Auto-generated method stub
-
-
 		public static boolean elile(int age)
 		{
 			
@@ -18,14 +14,21 @@ public class Class2 {
 				
 			}else
 			{
-					return false;
+					
+				return false;
 				
 				
 			}
 		}
 		
+		public static void main(String[] args) 
 		
-		
+		{
+			// TODO Auto-generated method stub
+			//int age=40;
+	
+			boolean daya=elile(31);
+			System.out.println(daya);
 	}
 
 }

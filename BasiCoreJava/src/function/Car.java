@@ -10,10 +10,24 @@ package function;
 	
 	public void specificing()
 	{
-		System.out.print(color+""+model+"white VDI cars having" +wheels+"wheels");
+		System.out.print(color + "" + model + "" + " white VDI car having" + "" + "" + wheels +
+				 "" + " wheels");
 		
 	}
-	
+	//Default Constructor
+	public Car()
+	{
+		
+		
+	}
+	//parameterize constructor
+	public Car( String colour1,String model1)
+	{
+		
+		color=colour1;
+		model=model1;
+		
+	}
 	
 
 }
